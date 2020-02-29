@@ -1,0 +1,2 @@
+management.endpoints.enabled-by-default=true
+carwasher.dummy-boolean-value =false

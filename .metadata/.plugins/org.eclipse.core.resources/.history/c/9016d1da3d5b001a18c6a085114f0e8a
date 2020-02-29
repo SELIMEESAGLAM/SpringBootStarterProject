@@ -1,0 +1,9 @@
+package com.carwacher;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class CarWasherConfigration {
+
+	private CarWasherProperties carWasherProperties;
+}
