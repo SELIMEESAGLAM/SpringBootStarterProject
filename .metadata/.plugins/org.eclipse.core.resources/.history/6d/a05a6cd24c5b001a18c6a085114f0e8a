@@ -1,6 +1,5 @@
-logging.level.org.springframework.web=debug
-logging.file=carwasher.log
 management.endpoints.enabled-by-default=true
 carwasher.dummy-boolean-value=false
 carwasher.loadTestData=yes
-
+logging.level.org.springframework.web=debug
+logging.file=carwasher.log

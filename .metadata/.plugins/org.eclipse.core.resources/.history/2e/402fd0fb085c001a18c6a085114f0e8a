@@ -1,0 +1,60 @@
+package com.Carwasher.model;
+
+import java.sql.Date;
+
+public class CarWash {
+
+	private int id;
+	private Driver drive;
+	private Car car ;
+	private Date date;
+	private int price;
+	
+	public CarWash()
+	{ 
+	}
+	
+	public CarWash(int id, Driver drive, Car car, Date date, int price) {
+		super();
+		this.id = id;
+		this.drive = drive;
+		this.car = car;
+		this.date = date;
+		this.price = price;
+	}
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public Driver getDrive() {
+		return drive;
+	}
+	public void setDrive(Driver drive) {
+		this.drive = drive;
+	}
+	public Car getCar() {
+		return car;
+	}
+	public void setCar(Car car) {
+		this.car = car;
+	}
+	public Date getDate() {
+		return date;
+	}
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	
+	
+	
+}

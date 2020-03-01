@@ -1,0 +1,15 @@
+package com.Carwasher.model;
+
+import java.sql.Date;
+
+public class CarWash {
+
+	
+	private int id;
+	private Driver drive;
+	private Car car ;
+	private Date date;
+	private int price;
+	
+	
+}
