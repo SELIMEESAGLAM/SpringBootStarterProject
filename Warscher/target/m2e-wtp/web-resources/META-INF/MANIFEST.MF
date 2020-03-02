@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Sony
+Build-Jdk: 12.0.2
+Implementation-Title: Warscher
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.carWarscher
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/Warscher
+Created-By: Maven Integration for Eclipse
+

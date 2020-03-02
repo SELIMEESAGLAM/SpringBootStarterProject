@@ -13,10 +13,7 @@ public class CarWash {
 	public CarWash()
 	{ 
 	}
-	
-
-
-	public CarWash(int id, Driver drive, Car car, Date date, int price) {
+    public CarWash(int id, Driver drive, Car car, Date date, int price) {
 		super();
 		this.id = id;
 		this.drive = drive;
